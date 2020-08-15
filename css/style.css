@@ -5,6 +5,16 @@
     padding: 0;
 }
 
+@font-face{
+    font-family: Montserrat;
+	src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: balootama2SemiBold;
+    src: url(../fonts/Baloo_Tamma_2/BalooTamma2-SemiBold.ttf);
+}
+
 body{
     position: relative;
     width: 100%;
@@ -22,7 +32,7 @@ body{
 }
 
 #cabecalho #logo{
-    width: 15%;
+    width: 20%;
     height: auto;
     margin: auto;
 }
@@ -37,4 +47,35 @@ body{
 
 #cabecalho div img{
     width: 45%;
+}
+
+/*#########################################################*/
+
+#sessao{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#sessao h1{
+    margin: auto;
+    font-size: 50pt;
+    font-family: balootama2SemiBold;
+}
+
+.buttons{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.buttons button{
+    width: 22%;
+    height: 40px;
+    margin: 0.3%;
+    border: solid 3px rgb(0, 0, 0);
+    font-size: 1em;
 }
